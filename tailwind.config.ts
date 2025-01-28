@@ -10,8 +10,13 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        text_style_color:"var(--text)" ,
+        button_color:"var(--button)",
+        card_style:"var(--card)" ,
       },
+      fontFamily:{
+        "inter":"inter"
+      }
     },
   },
   plugins: [],
